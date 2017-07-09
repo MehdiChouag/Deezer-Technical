@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Toolbar style -->
+  <style name="Deezer.ToolbarStyle" parent="Deezer.ToolbarBaseStyle">
+    <item name="android:elevation">@dimen/toolbar_elevation</item>
+  </style>
+</resources>

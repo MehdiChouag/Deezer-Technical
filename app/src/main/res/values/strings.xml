@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">Deezer Technical Test</string>
+
+  <!-- Home -->
+  <string name="menu_home_clear_cache">Clear cache</string>
+  <string name="home_error_network">An error occurred while fetching data</string>
+  <string name="home_error_parsing">An error occurred while parsing data</string>
+  <string name="home_retry">Retry</string>
+
+</resources>

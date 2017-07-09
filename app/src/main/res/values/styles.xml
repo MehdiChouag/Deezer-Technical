@@ -1,0 +1,41 @@
+<resources>
+
+  <style name="Deezer"/>
+
+  <!-- Toolbar style -->
+  <style name="Deezer.ToolbarStyle." parent="Deezer.ToolbarBaseStyle"/>
+
+  <style name="Deezer.ToolbarBaseStyle">
+    <item name="android:background">?colorPrimary</item>
+    <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+  </style>
+
+  <!-- CardView -->
+  <style name="CardView"/>
+
+  <style name="CardView.Base" parent="CardView.Light">
+    <item name="cardUseCompatPadding">true</item>
+    <item name="cardCornerRadius">2dp</item>
+    <item name="cardElevation">2dp</item>
+    <item name="cardPreventCornerOverlap">false</item>
+    <item name="android:clickable">true</item>
+  </style>
+
+  <!-- Album -->
+  <style name="Album"/>
+
+  <style name="Album.Item"/>
+
+  <style name="Album.Item.CardView" parent="CardView.Base"/>
+
+  <style name="Album.Item.Name" parent="@style/TextAppearance.AppCompat.Subhead">
+    <item name="android:textColor">@color/dark_gray_text</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="Album.Item.Artist" parent="@style/TextAppearance.AppCompat.Body1">
+    <item name="android:textColor">@color/dark_gray_text</item>
+    <item name="android:singleLine">true</item>
+  </style>
+</resources>
